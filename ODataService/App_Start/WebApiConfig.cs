@@ -40,6 +40,7 @@ namespace ODataService
             builder.Namespace = "Demos";
             builder.ContainerName = "DefaultContainer";
             builder.EntitySet<Student>("Students");
+            builder.EntitySet<Book>("Books");
             var edmModel = builder.GetEdmModel();
             return edmModel;
         }

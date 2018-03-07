@@ -13,6 +13,7 @@ namespace ODataService.Models
         [Required]
         public string Name { get; set; }
         public int Course { get; set; }
+        public List<Book> Books { get; set; }
 
         //public Student(int id, string name, int course)
         //{

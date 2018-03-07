@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="DataSource\DemoDataSources.cs" />
     <Compile Include="Global.asax.cs">

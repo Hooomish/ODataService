@@ -9,7 +9,7 @@ namespace ODataService.Models
     public class Book
     {
         [Key]
-        public String ID { get; set; }
+        public string ID { get; set; }
         [Required]
         public String Name { get; set; }
         public int Year { get; set; }
